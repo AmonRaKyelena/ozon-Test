@@ -1,0 +1,21 @@
+input NewComment {
+  postId: ID!
+  parentId: ID
+  text: String!
+}
+
+type CommentForPagination {
+  id: ID!
+  parentId: ID
+  text: String!
+  postId: ID!
+  hasChild: Boolean!
+}
+
+extend type Query {
+  commentsOnPost(postId: ID!, parentId: ID, limit: Int = 25, offset: Int = 0) : [CommentForPagination]!
+}
+
+extend type Mutation {
+  createComment(input: NewComment): ID!
+}

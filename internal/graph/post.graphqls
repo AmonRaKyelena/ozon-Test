@@ -1,0 +1,28 @@
+input NewPost{
+  title: String!
+  text: String!
+  readOnly: Boolean!
+}
+
+type PostForPagination {
+  id: ID!
+  title: String!
+  text: String!
+  readOnly: Boolean!
+
+  comments(limit: Int = 25, offset: Int = 0): [CommentForPagination] @goField(forceResolver: true)
+}
+
+type Query {
+  listOfPosts(limit: Int = 25, offset: Int = 0): [PostForPagination]!
+  onePost(id: ID!): PostForPagination!
+}
+ 
+type Mutation {
+  createPost(input: NewPost): ID!
+}
+
+directive @goField(
+  forceResolver: Boolean
+  name: String
+) on FIELD_DEFINITION | INPUT_FIELD_DEFINITION
