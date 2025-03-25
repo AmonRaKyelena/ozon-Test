@@ -2,11 +2,11 @@
 
 package mocks
 
-//go:generate minimock -i ozon-test-project/internal/service/post.PostService -o post_service_mock.go -n PostServiceMock -p mocks
+//go:generate minimock -i github.com/AmonRaKyelena/ozon-Test/internal/service/post.PostService -o post_service_mock.go -n PostServiceMock -p mocks
 
 import (
 	"context"
-	"ozon-test-project/internal/handlers/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/handlers/model"
 	"sync"
 	mm_atomic "sync/atomic"
 	mm_time "time"

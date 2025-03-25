@@ -1,8 +1,8 @@
 package inmemory
 
 import (
-	"ozon-test-project/internal/pkg/storage"
-	"ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 	"sync"
 	"sync/atomic"
 )

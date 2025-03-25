@@ -2,7 +2,7 @@ package postgresql
 
 import (
 	"context"
-	"ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 )
 
 func (r *postgresqlRepository) CreatePost(ctx context.Context, post model.Post) (int64, error) {

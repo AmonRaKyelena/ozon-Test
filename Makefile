@@ -10,6 +10,6 @@ migrations-down:
 	goose -dir $(MIGRATIONS_DIR) postgres $(DB_CONN) down
 
 mock:
-	minimock -i ozon-test-project/internal/pkg/storage.Storage -o internal/pkg/storage/mocks/storage_mock.go
-	minimock -i ozon-test-project/internal/service/comment.CommentService -o internal/service/comment/mocks/comment_service_mock.go
-	minimock -i ozon-test-project/internal/service/post.PostService -o internal/service/post/mocks/post_service_mock.go
+	minimock -i github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage.Storage -o internal/pkg/storage/mocks/storage_mock.go
+	minimock -i github.com/AmonRaKyelena/ozon-Test/internal/service/comment.CommentService -o internal/service/comment/mocks/comment_service_mock.go
+	minimock -i github.com/AmonRaKyelena/ozon-Test/internal/service/post.PostService -o internal/service/post/mocks/post_service_mock.go

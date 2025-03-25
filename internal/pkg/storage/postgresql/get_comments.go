@@ -3,7 +3,7 @@ package postgresql
 import (
 	"context"
 	"database/sql"
-	"ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 
 	"github.com/lib/pq"
 )

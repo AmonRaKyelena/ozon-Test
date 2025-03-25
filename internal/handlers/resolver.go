@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"ozon-test-project/internal/service/comment"
-	"ozon-test-project/internal/service/post"
+	"github.com/AmonRaKyelena/ozon-Test/internal/service/comment"
+	"github.com/AmonRaKyelena/ozon-Test/internal/service/post"
 )
 
 // This file will not be regenerated automatically.

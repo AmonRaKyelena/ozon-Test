@@ -2,8 +2,8 @@ package post
 
 import (
 	"context"
-	"ozon-test-project/internal/handlers/model"
-	modelDB "ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/handlers/model"
+	modelDB "github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 )
 
 func (s *postService) CreatePost(ctx context.Context, newPost model.NewPost) (int64, error) {

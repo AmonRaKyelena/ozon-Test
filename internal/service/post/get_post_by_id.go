@@ -2,7 +2,7 @@ package post
 
 import (
 	"context"
-	"ozon-test-project/internal/handlers/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/handlers/model"
 )
 
 func (s *postService) GetPostByID(ctx context.Context, id int64) (*model.PostForPagination, error) {

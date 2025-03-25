@@ -2,7 +2,7 @@ package comment
 
 import (
 	"context"
-	"ozon-test-project/internal/handlers/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/handlers/model"
 )
 
 func (s *commentService) GetCommentsByPostIDs(ctx context.Context, postIDs []int64, limit, offset int32) (map[int64][]*model.CommentForPagination, error) {

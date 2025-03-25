@@ -8,7 +8,7 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/require"
 
-	"ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 )
 
 func TestCreatePost(t *testing.T) {

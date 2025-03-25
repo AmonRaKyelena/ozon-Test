@@ -3,7 +3,7 @@ package postgresql
 import (
 	"context"
 	"database/sql"
-	"ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 )
 
 func (r *postgresqlRepository) GetCommentsByParentID(ctx context.Context, parentID int64, limit, offset int32) ([]*model.CommentForPagination, error) {

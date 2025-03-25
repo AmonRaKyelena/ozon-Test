@@ -2,8 +2,8 @@ package post
 
 import (
 	"context"
-	"ozon-test-project/internal/handlers/model"
-	"ozon-test-project/internal/pkg/storage"
+	"github.com/AmonRaKyelena/ozon-Test/internal/handlers/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage"
 )
 
 type PostService interface {

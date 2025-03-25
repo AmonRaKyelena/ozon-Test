@@ -1,7 +1,7 @@
 package post
 
 import (
-	"ozon-test-project/internal/pkg/storage/mocks"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/mocks"
 
 	"github.com/gojuno/minimock/v3"
 )

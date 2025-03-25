@@ -7,15 +7,15 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -o ozon-test-project ./cmd
+RUN go build -o github.com/AmonRaKyelena/ozon-Test ./cmd
 
 FROM alpine:latest
 
 WORKDIR /root/
 
-COPY --from=builder /app/ozon-test-project .
+COPY --from=builder /app/github.com/AmonRaKyelena/ozon-Test .
 COPY config.json .
 
 EXPOSE 8080
 
-ENTRYPOINT ["./ozon-test-project"]
+ENTRYPOINT ["./github.com/AmonRaKyelena/ozon-Test"]

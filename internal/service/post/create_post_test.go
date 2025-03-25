@@ -3,10 +3,10 @@ package post
 import (
 	"context"
 	"errors"
-	"ozon-test-project/internal/handlers/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/handlers/model"
 	"testing"
 
-	modelDB "ozon-test-project/internal/pkg/storage/model"
+	modelDB "github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 
 	"github.com/gojuno/minimock/v3"
 	"github.com/stretchr/testify/require"

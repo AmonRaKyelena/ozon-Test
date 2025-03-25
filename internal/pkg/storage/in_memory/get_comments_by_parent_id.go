@@ -2,8 +2,8 @@ package inmemory
 
 import (
 	"context"
-	"ozon-test-project/internal/pkg/storage"
-	"ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 )
 
 func (r *inMemoryRepository) GetCommentsByParentID(ctx context.Context, parentID int64, limit, offset int32) ([]*model.CommentForPagination, error) {

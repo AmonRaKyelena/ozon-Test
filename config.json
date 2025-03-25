@@ -1,6 +1,6 @@
 {
     "port": "8080",
     "log_level": "debug",
-    "repository_mode": "postgresql",
+    "repository_mode": "inmemory",
     "psql_info": "user=user dbname=ozon-test host=db password=password port=5432 sslmode=disable"
 }

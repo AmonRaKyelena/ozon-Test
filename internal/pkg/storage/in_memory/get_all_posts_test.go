@@ -2,7 +2,7 @@ package inmemory
 
 import (
 	"context"
-	"ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 	"testing"
 
 	"github.com/stretchr/testify/require"

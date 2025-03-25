@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strconv"
 
-	"ozon-test-project/internal/service/comment"
+	"github.com/AmonRaKyelena/ozon-Test/internal/service/comment"
 
 	"github.com/graph-gophers/dataloader"
 )

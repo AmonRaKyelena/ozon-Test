@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"ozon-test-project/internal/handlers/model"
-	modelDB "ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/handlers/model"
+	modelDB "github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 
 	"github.com/gojuno/minimock/v3"
 	"github.com/stretchr/testify/require"

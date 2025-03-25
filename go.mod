@@ -1,4 +1,4 @@
-module ozon-test-project
+module github.com/AmonRaKyelena/ozon-Test
 
 go 1.24.1
 

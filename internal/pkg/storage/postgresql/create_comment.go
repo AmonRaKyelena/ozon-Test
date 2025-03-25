@@ -2,7 +2,7 @@ package postgresql
 
 import (
 	"context"
-	"ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 )
 
 func (r *postgresqlRepository) CreateComment(ctx context.Context, comment model.Comment) (int64, error) {

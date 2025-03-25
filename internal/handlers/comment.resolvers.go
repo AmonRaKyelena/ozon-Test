@@ -6,8 +6,8 @@ package handlers
 
 import (
 	"context"
-	"ozon-test-project/internal/handlers/model"
-	"ozon-test-project/internal/pkg/logger"
+	"github.com/AmonRaKyelena/ozon-Test/internal/handlers/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/logger"
 
 	"go.uber.org/zap"
 )

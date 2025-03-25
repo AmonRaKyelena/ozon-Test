@@ -22,7 +22,7 @@ services:
       - migrations
     ports:
       - "8080:8080"
-    command: ["./ozon-test-project"]
+    command: ["./github.com/AmonRaKyelena/ozon-Test"]
 
 volumes:
   db-data:

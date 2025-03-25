@@ -2,7 +2,7 @@ package storage
 
 import (
 	"context"
-	"ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 )
 
 type Storage interface {

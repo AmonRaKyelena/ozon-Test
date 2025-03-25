@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"ozon-test-project/internal/pkg/storage"
-	"ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 )
 
 func (r *inMemoryRepository) GetPostByID(ctx context.Context, id int64) (*model.Post, error) {

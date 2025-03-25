@@ -3,7 +3,7 @@ package comment
 import (
 	"context"
 	"errors"
-	storage_model "ozon-test-project/internal/pkg/storage/model"
+	storage_model "github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 )
 
 func (s *commentService) CreateComment(ctx context.Context, postID int64, text string, parentID *int64) (int64, error) {

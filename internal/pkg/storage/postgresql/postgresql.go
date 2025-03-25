@@ -2,7 +2,7 @@ package postgresql
 
 import (
 	"database/sql"
-	"ozon-test-project/internal/pkg/storage"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage"
 )
 
 type postgresqlRepository struct {

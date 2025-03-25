@@ -2,11 +2,11 @@
 
 package mocks
 
-//go:generate minimock -i ozon-test-project/internal/pkg/storage.Storage -o storage_mock.go -n StorageMock -p mocks
+//go:generate minimock -i github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage.Storage -o storage_mock.go -n StorageMock -p mocks
 
 import (
 	"context"
-	"ozon-test-project/internal/pkg/storage/model"
+	"github.com/AmonRaKyelena/ozon-Test/internal/pkg/storage/model"
 	"sync"
 	mm_atomic "sync/atomic"
 	mm_time "time"
